@@ -1,0 +1,7 @@
+add5,add6,addr0,addr1- on the bss- because their global variables out of any function or static
+foo() ,point_at- initialized data under bss
+i-stack,addr2,add3.addr4 poimting to the heap,iarray ,carray, iarrayptr,carrayptr,p,local
+yos- on stack pointing to word in the initilized data  
+distances:addr5-addr6=4 cause they close on bss
+local-addr5= big difference stack and bss
+foo-addr5 tiny difference nss and uninitilized
